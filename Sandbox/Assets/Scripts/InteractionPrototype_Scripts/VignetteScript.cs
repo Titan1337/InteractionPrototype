@@ -38,7 +38,7 @@ public class VignetteScript : MonoBehaviour
     }
     private void FadeOut(InputAction.CallbackContext obj)
     {
-        StartCoroutine(Fade(intensity, 0));
+        StartCoroutine(Fade(0, intensity));
     }
 
     IEnumerator Fade(float startValue, float endValue)
